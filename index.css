@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 85vh; */
+  min-height: 95vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  gap: 2ch;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3ch;
+  border-bottom: 0.1ch;
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+}
+
+#headTitle {
+  font-size: 5ch;
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 0ch;
+}
+
+#mugshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+#homeh1 {
+  padding-right: 1ch;
+  margin-right: 1ch;
+  border-right: 0.1ch;
+  border-right-style: solid;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-grow: 1;
+  gap: 0.5em;
+}
+
+img {
+  object-fit: contain;
+  background-color: grey;
+}
+
+#quote {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 50%;
+}
+
+p {
+  width: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.aboutBlock {
+  display: flex;
+  border-top: 0.5ch;
+  border-top-color: blue;
+  border-top-style: solid;
+  width: 50%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.portfolioBlock {
+  display: flex;
+  border: 0.1ch;
+  border-color: blue;
+  border-style: solid;
+  width: 50%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-grow: 1;
+}
+.portfolioh1 {
+  display: flex;
+  background-color: blue;
+  width: 100%;
+  margin-top: 0;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
